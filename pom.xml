@@ -34,6 +34,11 @@
 			<artifactId>thymeleaf-spring5</artifactId>
 			<scope>compile</scope>
 		</dependency>
+		<!-- bean validationの追加 -->
+		<dependency>
+		  <groupId>org.springframework.boot</groupId>
+		  <artifactId>spring-boot-starter-validation</artifactId>
+		</dependency>
 	</dependencies>
 
 	<build>
