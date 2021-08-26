@@ -4,7 +4,7 @@ import javax.validation.constraints.NotEmpty;
 
 public class ShainForm {
 
-@NotEmpty(message = " 社員Noを入れてください")
+@NotEmpty(message = " 社員Noを入れてくださいね")
 private String number;
 
 public String getNumber() {
